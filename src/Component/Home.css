@@ -1,0 +1,206 @@
+.bcaJjD {
+    text-align: center;
+    padding: 1em;
+}
+.hSaKRS {
+    max-width: 75%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: auto;
+}
+.cIKpxU {
+    display: flex;
+    flex-flow: row wrap;
+}
+.post {
+    width: 30%;
+    margin: 0.5% 1.5%;
+    border: 4px solid rgb(241, 241, 241);
+    padding-bottom: 2em;
+    cursor: pointer;
+    display: flex;
+    flex-flow: column wrap;
+}
+@media only screen and (min-width: 992px){
+    .post{
+        width: 28%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .post{
+        width: 28%;
+    }
+}
+@media only screen and (min-width: 1193px){
+    .post{
+        min-height: 490px;
+    }
+}
+@media only screen and (max-width: 1192px){
+    .post{
+        min-height: 430px;
+    }
+}
+@media only screen and (max-width: 512px){
+.post {
+    width: 90%;
+    margin: 4% 2%;
+    min-height: 350px;
+}}
+
+.gbgfMs {
+    padding: 1em 1em 1.5em;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+bhdLno {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.dXWCyY {
+    padding: 1em 0px;
+    -webkit-box-pack: start;
+    justify-content: flex-start;
+}
+.gTLZXx {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border: 1px solid rgb(216, 216, 216);
+    height: 36px;
+    min-width: 44%;
+    max-width: 150px;
+    padding: 0.3em 0.5em;
+    background-color: rgb(255, 255, 255);
+    color: rgb(11, 89, 137);
+    cursor: pointer;
+    transition: color 0.3s ease-in 0s, background-color 0.3s ease-in 0s;
+}
+.gTLZXx:hover{
+    background-color: rgb(11, 89, 137);
+    color: rgb(255, 255, 255);
+}
+.ckDfJz {
+    position: relative;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+
+/* ////////////// Comment ///////////////// */
+
+
+@media only screen and (min-width: 768px){
+.cQZIoF {
+    flex-wrap: nowrap;
+}}
+@media only screen and (min-width: 1312px){
+.cQZIoF {
+    max-width: 60vw;
+}}
+@media only screen and (min-width: 1193px){
+.cQZIoF {
+    max-width: 70%;
+}}
+@media only screen and (max-width: 768px){
+.cQZIoF {
+    max-width: 80%;
+}}
+@media only screen and (max-width: 512px){
+.cQZIoF {
+    max-width: 90%;
+}}
+.cQZIoF {
+    max-width: 60%;
+    min-height: 600px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    margin: auto;
+    border: 4px solid rgb(241, 241, 241);
+}
+
+
+.iDhzRL {
+    padding: 0px 0px 4em;
+}
+
+/* ///////////// Comment-Post /////////////// */
+
+.ehfErK {
+    padding: 1em;
+    height: 100%;
+    width: 60%;
+}
+.bhdLno {
+    display: flex;
+    flex-flow: column wrap;
+}
+.btjemE {
+    object-fit: cover;
+    width: 100%;
+}
+@media only screen and (max-width: 768px){
+.ehfErK {
+    width: 100%;
+    padding-bottom: 0px;
+}}
+@media only screen and (max-width: 768px){
+.cYLuAZ {
+    width: 100%;
+    -webkit-box-pack: center;
+    justify-content: center;
+}}
+
+/* //////////////// Add-Comments /////////////////// */
+
+.cSnsVU {
+    width: 40%;
+    padding-top: 1em;
+}
+.bhdLno {
+    display: flex;
+    flex-flow: column wrap;
+}
+.bjNVbG {
+    padding: 0.8em 0.4em 0.8em 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+.kGntgQ {
+    color: rgb(0, 86, 175);
+    font-weight: 800;
+    font-size: 0.8em;
+    margin-right: 0.7em;
+    cursor: pointer;
+}
+.XavQL {
+    color: rgb(89, 92, 91);
+    font-weight: 500;
+    font-size: 0.9em;
+}
+.kCQmsc {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.guKkvw {
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    padding: 0.8em 0.4em 0.8em 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+    color: rgb(89, 92, 91);
+}
+@media only screen and (max-width: 768px){
+.cSnsVU {
+    width: 100%;
+    padding: 1em;
+}}
