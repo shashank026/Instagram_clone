@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { NavLink } from 'react-router-dom'
 
 
@@ -7,6 +7,13 @@ const Postcard = (props) => {
     const increaselike = () => {
         setlike(like + 1);
     }
+    
+    useEffect(() => {
+        fetch(`https://jsonplaceholder.typicode.com/posts`).then(res => res.json()).then(data => {
+            console.log(data);
+        })
+    })
+    
     return (
         <>
             <div className="post">
